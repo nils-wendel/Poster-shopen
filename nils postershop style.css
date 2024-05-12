@@ -1,0 +1,106 @@
+
+
+
+header {
+background-color: rgb(84, 84, 255);
+text-align: center;
+border: 0%;
+}
+section {
+    text-align: left;
+    padding: 1rem;
+}
+main {
+background-color: rgb(114, 114, 250);
+
+}
+
+footer {
+    background-color: rgb(84, 84, 255);
+   padding: 5rem;
+    }
+
+
+p {
+margin: 0px;
+color: aliceblue;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+h1 {
+margin: 0px;
+color: aliceblue;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+font-size: 100px;
+padding: 5rem;
+
+}
+
+body {
+margin: 0px;
+}
+
+.framed {
+    border: 3px solid rgb(255, 255, 255);
+    margin: 0.5rem;
+    padding: 5rem;
+    height: 70px;
+    width: 50px;
+
+    
+    
+}
+
+
+.framed img {
+    max-width:100%;
+    max-height:100%;
+    object-fit: contain;
+
+
+}
+
+.colums {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    column-gap: 20px;
+
+}
+
+.text-bottom1 {
+    color: aliceblue;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+
+
+}
+
+.text-bottom2 {
+    color: aliceblue;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+}
+
+.text-bottom3 {
+    color: aliceblue;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    gap:15rem;
+
+}
+
+.img1 {
+    object-fit:fill;
+}
